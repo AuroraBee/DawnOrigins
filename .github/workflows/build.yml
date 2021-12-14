@@ -18,8 +18,8 @@ jobs:
         os: [ubuntu-20.04, ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - name: Fix Gradle Wrapper
-        run: gradle wrapper
+      - name: Sudo su
+        run: sudo su
       - name: Gradle Wrapper Validation
         uses: gradle/wrapper-validation-action@v1.0.4
         with:
