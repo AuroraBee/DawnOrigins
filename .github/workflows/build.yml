@@ -18,6 +18,8 @@ jobs:
         os: [ubuntu-20.04, windows-2022]
     runs-on: ${{ matrix.os }}
     steps:
+      - name: Attempt to make a wrapper.
+        run: gradle wrapper
       - name: Gradle Wrapper Validation
         uses: gradle/wrapper-validation-action@v1.0.4
         with:
