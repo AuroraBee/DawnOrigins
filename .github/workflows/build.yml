@@ -26,6 +26,9 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: ${{ matrix.java }}
+      - name: echo directory
+        if: ${{ runner.os != 'Windows' }}
+        run: echo $(ls)
       - name: make gradle wrapper executable
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
