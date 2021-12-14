@@ -18,6 +18,10 @@ jobs:
         os: [ubuntu-20.04, ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
+      - name: Install dos2unix
+        run: apt-get install dos2unix
+      - name: Fix Gradle Wrapper
+        run: dos2unix ./gradlew
       - name: Gradle Wrapper Validation
         uses: gradle/wrapper-validation-action@v1.0.4
         with:
