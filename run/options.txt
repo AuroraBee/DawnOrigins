@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:3
 renderClouds:true
-resourcePacks:["Fabric Mods"]
+resourcePacks:["vanilla","Fabric Mods"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -62,7 +62,7 @@ useNativeTransport:true
 mainHand:right
 attackIndicator:1
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
@@ -107,6 +107,9 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.origins.primary_active:key.keyboard.g
+key_key.origins.secondary_active:key.keyboard.unknown
+key_key.origins.view_origin:key.keyboard.o
 soundCategory_master:0.50993377
 soundCategory_music:0.20070423
 soundCategory_record:1.0

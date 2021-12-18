@@ -1,0 +1,37 @@
+{
+  "temperature": -1.8,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "the_end",
+  "creature_spawn_probability": 0.001,
+  "effects": {
+    "sky_color": 3550469,
+    "fog_color": 15848022,
+    "water_color": 10066314,
+    "water_fog_color": 10128506,
+    "grass_color": 10266732,
+    "foliage_color": 9082709,
+    "grass_color_modifier": "dark_forest",
+    "music": {
+      "sound": "dawn:primal_music_void",
+      "min_delay": 200,
+      "max_delay": 20000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "dawn:primal_dust"
+      },
+      "probability": 0.1
+    }
+  },
+  "spawners": {
+    "monster": []
+  },
+  "spawn_costs": {
+  },
+  "carvers": {
+  },
+  "features": []
+}

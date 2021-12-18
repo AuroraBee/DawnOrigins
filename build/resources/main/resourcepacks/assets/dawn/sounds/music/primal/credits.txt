@@ -1,0 +1,12 @@
+
+/*
+ * Thanks, pink kitty, for these nice songs (uwu)
+ */
+
+o4.wav -> primal_light.ogg
+o6.wav -> primordial_calm.ogg
+s desolate.wav -> desolate_void.ogg
+y cgbce.wab -> field_of_storms.ogg
+y run.wav -> cloudy_islands.ogg
+
+yup, i wrote the old file names in here.

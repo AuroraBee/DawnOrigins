@@ -1,0 +1,54 @@
+{
+  "temperature": -1.8,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "the_end",
+  "creature_spawn_probability": 0.001,
+  "effects": {
+    "sky_color": 3550469,
+    "fog_color": 15848022,
+    "water_color": 10066314,
+    "water_fog_color": 10128506,
+    "grass_color": 10266732,
+    "foliage_color": 9082709,
+    "grass_color_modifier": "dark_forest",
+    "music": {
+      "sound": "dawn:primal_music_clouds",
+      "min_delay": 200,
+      "max_delay": 20000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "dawn:primal_dust"
+      },
+      "probability": 0.1
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:vex",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:vex": {
+      "energy_budget": 0.12,
+      "charge": 0.3
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:nether_cave",
+      "minecraft:canyon",
+      "minecraft:cave_extra_underground"
+    ]
+  },
+  "features": []
+}

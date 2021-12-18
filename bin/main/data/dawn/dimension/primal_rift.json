@@ -1,0 +1,61 @@
+{
+  "type": "dawn:primal",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1434766392,
+    "settings": "dawn:primal_rift_noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "dawn:primal_void",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 2,
+            "erosion": 1,
+            "weirdness": 1,
+            "depth": 2,
+            "offset": 0.5
+          }
+        },
+        {
+          "biome": "dawn:primal_islands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -1,
+            "continentalness": -2,
+            "erosion": 2,
+            "weirdness": 1,
+            "depth": 0,
+            "offset": 1
+          }
+        },
+        {
+          "biome": "dawn:primal_shard_field",
+          "parameters": {
+            "temperature": 2,
+            "humidity": 2,
+            "continentalness": -1.6,
+            "erosion": -1,
+            "weirdness": 1,
+            "depth": 1,
+            "offset": 0.5
+          }
+        },
+        {
+          "biome": "dawn:primal_clouds",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 2,
+            "continentalness": -2,
+            "erosion": 2,
+            "weirdness": 0.6,
+            "depth": -1,
+            "offset": 0.2
+          }
+        }
+      ]
+    }
+  }
+}

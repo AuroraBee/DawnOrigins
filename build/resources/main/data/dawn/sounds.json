@@ -1,0 +1,49 @@
+{
+	"primal_music_void": {
+		"sounds" : [
+			"dawn:music/desolate_void",
+			"dawn:music/field_of_storms"
+		]
+	},
+	"primal_music_islands": {
+		"sounds" : [
+			"dawn:music/primordial_calm",
+			"dawn:music/primal_light"
+		]
+	},
+	"primal_music_clouds": {
+		"sounds" : [
+			"dawn:music/cloudy_islands"
+		]
+	}
+}
+
+{
+	"primal_music_void": {
+		"sounds" : {
+			"name": "dawn:music/desolate_void",
+			"stream": true
+		},
+		{
+			"name": "dawn:music/field_of_storms",
+			"stream": true
+		}
+	},
+	"primal_music_islands": {
+		"sounds" : {
+			"name": "dawn:music/primordial_calm",
+			"stream": true
+		},
+		{
+			"name": "dawn:music/primal_light",
+			"stream": true
+		}
+	},
+	"primal_music_clouds": {
+		"sounds" : {
+			"name": "dawn:music/cloudy_islands",
+			"stream": true
+		}
+	}
+}
+
