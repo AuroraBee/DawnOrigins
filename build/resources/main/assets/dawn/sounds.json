@@ -1,0 +1,20 @@
+{
+	"primal_music_void": {
+		"sounds" : [
+			"dawn:music/primal/desolate_void",
+			"dawn:music/primal/field_of_storms"
+		]
+	},
+	"primal_music_islands": {
+		"sounds" : [
+			"dawn:music/primal/primordial_calm",
+			"dawn:music/primal/primal_light"
+		]
+	},
+	"primal_music_clouds": {
+		"sounds" : [
+			"dawn:music/primal/cloudy_islands"
+		]
+	}
+}
+
