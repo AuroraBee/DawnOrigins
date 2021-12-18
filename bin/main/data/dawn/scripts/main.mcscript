@@ -4,16 +4,3 @@
 // executes 20 times a second
 
 
-as (@a) {
-    /say "hi"
-}
-
-var tmp
-tmp @a = 0
-
-for(1,5) {
-    tmp++
-    as(@p) {
-        /say $(tmp)
-    }
-}

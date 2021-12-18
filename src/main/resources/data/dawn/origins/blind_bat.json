@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "dawn:block_blindness",
+        "dawn:entity_blindness"
+    ],
+    "icon" : {
+        "item": "minecraft:black_wool"
+    },
+    "impact": 3,
+    "name": "Blind Bat",
+    "description": "you are as blind as a bat."
+}

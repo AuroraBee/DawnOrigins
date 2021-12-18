@@ -1,0 +1,11 @@
+{
+    "name": "Entity Blindness",
+    "description": "You cannot see any mobs",
+    "type": "origins:prevent_entity_render",
+    "entity_condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "condition": {
+        "type": "origins:daytime"
+    }
+}

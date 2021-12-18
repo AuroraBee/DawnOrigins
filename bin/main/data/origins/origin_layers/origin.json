@@ -1,4 +1,6 @@
 {
   "replace": false,
-  "origins": []
+  "origins": [
+    "dawn:blind_bat"
+  ]
 }
